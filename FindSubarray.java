@@ -16,7 +16,7 @@ public class FindSubarray {
             if (tsum < sum) {
                 tsum += arr[i];
                 end = i;
-            } else if (tsum > sum) {
+            } else if (tsum > sum) {N
                 tsum -= arr[start];
                 start++;
                 end = i;
