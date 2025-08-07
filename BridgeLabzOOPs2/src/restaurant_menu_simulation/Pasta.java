@@ -2,9 +2,9 @@ package restaurant_menu_simulation;
 
 public class Pasta implements FoodItem {
 
-    int price;
-    int cookingTime;
-    String ingridients;
+    private int price;
+    private int cookingTime;
+    private String ingridients;
 
     Pasta(int price, int cookingTime, String ingridients) {
         this.price = price;
